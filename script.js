@@ -106,3 +106,7 @@ dressSection.innerHTML = `
 </ul>
 `
 mainContainer.appendChild(dressSection);
+
+
+const sectionContainer = document.getElementById("section-container");
+sectionContainer.classList.add('yellow-bg')
